@@ -64,16 +64,9 @@ public class BasicWebdriverMethods {
 		System.out.println("Id Second window: " + windowHandle_Kredicash); 
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.switchTo().window("0F65F101067C572F2E764051A0EA6FC0");
+		driver.switchTo().window("E42E3340A97AF79DA8C320D9F8551DCD");
 
 		// Obtencion de ciertos datos del navegador y pagina
-		String currentURL = driver.getCurrentUrl();
-		System.out.println("El url actual es: " + currentURL);
-
-		String webTitle = driver.getTitle();
-		System.out.println("El titulo actual es: " + webTitle);
-
-		String sourcePage = driver.getPageSource();
 		// System.out.println("me da todo el HTML de la pagina " + sourcePage);
 
 		
